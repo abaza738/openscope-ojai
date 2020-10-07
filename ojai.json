@@ -6,7 +6,7 @@
     },
     "icao": "OJAI",
     "iata": "AMM",
-    "magnetic_north": 5,
+    "magnetic_north": 4,
     "ctr_radius": 110,
     "ctr_ceiling": 25000,
     "initial_alt": 5000,
@@ -19,11 +19,11 @@
     "has_terrain": false,
     "wind": {
         "angle": 290,
-        "speed": 16
+        "speed": 14
     },
     "arrivalRunway": "26L",
     "departureRunway": "26R",
-    "defaultMaps": ["Base Map"],
+    "defaultMaps": ["Base Map", "OJAI Tower CTA", "OJAQ Tower CTA"],
     "airspace": [
         {
             "floor": 0,
@@ -115,6 +115,7 @@
         "KINUR": ["N31d36m26.071", "E036d37m12.781"],
         "KIPAS": ["N31d23m24.000", "E037d06m41.000"],
         "KULDI": ["N31d18m47.070", "E036d32m14.161"],
+        "LONIN": ["N31d52m56.139", "E036d23m14.708"],
         "LONOL": ["N30d08m00.600", "E035d35m00.099"],
         "LOSAR": ["N32d09m30.059", "E036d28m49.771"],
         "LOSIL": ["N30d48m51.199", "E035d47m41.308"],
@@ -315,6 +316,186 @@
         "N318": ["GENEX", "ELOXI", "KINUR", "ALNOR", "QAA01", "MOUAB"]
     },
     "sids": {
+        "GENEX6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KULDI1Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KULDI1S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR1Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR1S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN1Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN1S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
         "MOUAB6D": {
             "icao": "MOUAB6D",
             "name": "MOUAB Six Delta",
@@ -328,6 +509,318 @@
             "draw": [
                 ["_DE26R", "_AI601", "_AI602", "MOUAB*"]
             ]
+        },
+        "MOUAB6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MOUAB1Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MOUAB1S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA6D": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA6T": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA1Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA1S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "QTR01Q": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "QTR01S": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "GENEX6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MOUAB6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MOUAB6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA6E": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA6W": {
+            "icao": "",
+            "name": "",
+            "rwy": {
+
+            },
+            "body": [],
+            "exitPoints": {
+
+            },
+            "draw":[[]]
         }
     },
     "stars": {
@@ -357,13 +850,313 @@
             },
             "draw": [["ELOXI*", "_AI150", "ALNOR", "ASPAL"]]
         },
+        "KULDI1C": {
+            "icao": "KULDI1C",
+            "name": "KULDI One Charlie",
+            "entryPoints": {
+                "KULDI":[["KULDI", "A150+"]]
+            },
+            "body":[["_AI270", "A70+"],["ASPAL", "A60"]],
+            "rwy": {
+                "OJAI26L": [],
+                "OJAI26R": []
+            },
+            "draw":[["KULDI*", "_AI270", "ASPAL"]]
+        },
+        "EGLOT1G": {
+            "icao": "EGLOT1G",
+            "name": "EGLOT One Golf",
+            "entryPoints": {
+                "EGLOT": [["EGLOT", "A90+"]]
+            },
+            "body":[["_AI091", "A70+"], ["LOTES", "A60"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["EGLOT*","_AI091", "ASPAL"]]
+        },
+        "ELOXI1G": {
+            "icao": "ELOXI1G",
+            "name": "ELOXI One Golf",
+            "entryPoints": {
+                "ELOXI": [["ELOXI", "A150+"]]
+            },
+            "body": [["_AI150", "A150+"],["ALNOR", "A116+|S250-"],["ASPAL","A60"]],
+            "rwy": {
+                "OJAI08L": [],
+                "OJAI08R": []
+            },
+            "draw":[["ELOXI*","_AI150","ALNOR","LOTES"]]
+        },
+        "KULDI1G": {
+            "icao": "KULDI1G",
+            "name": "KULDI One Golf",
+            "entryPoints": {
+                "KULDI":[["KULDI", "A150+"]]
+            },
+            "body":[["_AI087", "A70+"],["LOTES", "A60"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["KULDI*","_AI087","LOTES"]]
+        },
+        "LOSAR1C": {
+            "icao":"LOSAR1C",
+            "name": "LOSAR One Charlie",
+            "entryPoints": {
+                "LOSAR": [["LOSAR", "A130+"]]
+            },
+            "body": [["LONIN", "A85+|S210-"],["ORDUN", "A60"]],
+            "rwy": {
+                "OJAI26L":[],
+                "OJAI26R":[]
+            },
+            "draw":[["LOSAR*", "LONIN", "ORDUN"]]
+        },
+        "LUDAN1C": {
+            "icao":"LUDAN1C",
+            "name": "LUDAN One Charlie",
+            "entryPoints": {
+                "LUDAN": [["LUDAN", "A110+"]]
+            },
+            "body": [["LONIN", "A85+|S210-"], ["ORDUN", "A60"]],
+            "rwy": {
+                "OJAI26L":[],
+                "OJAI26R":[]
+            },
+            "draw":[["LUDAN*", "LONIN", "ORDUN"]]
+        },
+        "OSAMA1C": {
+            "icao":"OSAMA1C",
+            "name": "OSAMA One Charlie",
+            "entryPoints": {
+                "OSAMA": [["OSAMA", "A110"]]
+            },
+            "body": [["KINEN", "A85+|S210-"], ["ORDUN", "A60"]],
+            "rwy": {
+                "OJAI26L":[],
+                "OJAI26R":[]
+            },
+            "draw":[["OSAMA*", "KINEN", "ORDUN"]]
+        },
+        "QTR01C": {
+            "icao":"QTR01C",
+            "name": "QTR01 One Charlie",
+            "entryPoints": {
+                "QTR01":[["QTR01", "A90+"]]
+            },
+            "body": [["_AI268", "A70+"], ["ASPAL", "A60"]],
+            "rwy": {
+                "OJAI26L":[],
+                "OJAI26R":[]
+            },
+            "draw":[["QTR01*","_AI268","ASPAL"]]
+        },
+        "LOSAR1G": {
+            "icao":"LOSAR1G",
+            "name": "LOSAR One Golf",
+            "entryPoints": {
+                "LOSAR":[["LOSAR", "A130+"]]
+            },
+            "body": [["LOXER", "A90+"],["KINEN", "A85+|S210-"],["RESOS", "A60"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["LOSAR*", "LOXER", "KINEN", "RESOS"]]
+        },
+        "LUDAN1G": {
+            "icao":"LUDAN1G",
+            "name": "LUDAN One Golf",
+            "entryPoints": {
+                "LUDAN":[["LUDAN", "A110+"]]
+            },
+            "body": [["LOXER", "A90+"],["KINEN", "A85+|S210-"],["RESOS", "A60"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["LUDAN*", "LOXER", "KINEN", "RESOS"]]
+        },
+        "OSAMA1G": {
+            "icao":"OSAMA1G",
+            "name": "OSAMA One Golf",
+            "entryPoints": {
+                "OSAMA":[["OSAMA", "A110"]]
+            },
+            "body": [["RESOS", "A60+"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["OSAMA*", "RESOS"]]
+        },
+        "QTR01G": {
+            "icao":"QTR01G",
+            "name": "QTR01 One Golf",
+            "entryPoints": {
+                "QTR01":[["QTR01", "A90+"]]
+            },
+            "body": [["_AI088", "A70+"],["LOTES", "A60"]],
+            "rwy": {
+                "OJAI08L":[],
+                "OJAI08R":[]
+            },
+            "draw":[["QTR01*", "_AI088", "LOTES"]]
+        },
+        "LOSAR6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "OSAMA6L": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "GENEX6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSAR6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "LUDAN6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "KIPAS6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "LOSIL6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
+        "MUNRA6A": {
+            "icao":"",
+            "name": "",
+            "entryPoints": {
+
+            },
+            "body": [],
+            "rwy": {
+
+            },
+            "draw":[[]]
+        },
         "OSAMA6A": {
             "icao": "OSAMA6A",
             "name": "OSAMA Six Alpha",
             "entryPoints": {
                 "OSAMA": [["OSAMA","A110+"]]
             },
-            "body": [["_AI613","A90+"],["ORDUN","A60"], "#090"],
+            "body": [["_AI613","A90+"],["ORDUN","A60"]],
             "rwy": {
                 "OJAI26R": []
             },
@@ -401,13 +1194,13 @@
             "altitude": [17000, 26000],
             "speed": 320,
             "method":"random",
-            "rate": 15,
+            "rate": 7,
             "airlines": [
                 ["rja", 8],
                 ["rja/long", 2],
                 ["fdb", 2],
                 ["kne", 1],
-                ["uae/long", 5],
+                ["uae", 4],
                 ["kac", 2],
                 ["sva", 4],
                 ["jza", 2],
@@ -416,16 +1209,28 @@
         },
         {
             "origin": "",
-            "destination": "",
-            "category":"overflight",
-            "route":"PASIP..ORNAL..ELOXI..MUNRA..LONOL..SESMO..ULINA",
-            "altitude":[30000, 38000],
-            "speed": 320,
-            "method": "random",
-            "rate": 5,
+            "destination":"OJAI",
+            "category":"arrival",
+            "route":"ADLOD..SALAM..OSAMA.OSAMA6A.OJAI26R",
+            "altitude":[12000, 17000],
+            "speed": 270,
+            "method":"random",
+            "rate":9,
             "airlines": [
-                ["iaw", 2],
-                ["msr", 2]
+                ["rja", 10],
+                ["rja/long", 5],
+                ["ryr", 3],
+                ["aee", 3],
+                ["baw", 1],
+                ["dlh", 1],
+                ["afr", 1],
+                ["thy", 2],
+                ["thy/long", 1],
+                ["jav", 2],
+                ["aza", 1],
+                ["tvf", 1],
+                ["aua", 1],
+                ["pgt", 1]
             ]
         }
     ],
@@ -614,6 +1419,42 @@
                 ["N29d43m30", "E035d01m23", "N29d26m20", "E034d56m13"],
                 ["N29d26m20", "E034d56m13", "N29d22m12", "E034d55m07"],
                 ["N29d22m12", "E034d55m07", "N29d21m25", "E034d57m43"]
+            ]
+        },
+        {
+            "name": "OJAI Tower CTA",
+            "lines": [
+                [31.882248611111, 35.783080833333, 31.882249722222, 36.424761944444],
+                [31.882249722222, 36.424761944444, 31.516640833333, 36.511590833333],
+                [31.516640833333, 36.511590833333, 31.4791825, 35.797459166667],
+                [31.4791825, 35.797459166667, 31.715579722222, 35.716413333333],
+                [31.715579722222, 35.716413333333, 31.882248611111, 35.783080833333]
+            ]
+        },
+        {
+            "name": "OJAQ Tower CTA",
+            "lines": [
+                [29.74416, 35.034179722222, 29.742139722222, 35.060809722222],
+                [29.742139722222, 35.060809722222, 29.736119722222, 35.086629722222],
+                [29.736119722222, 35.086629722222, 29.726299722222, 35.11086],
+                [29.726299722222, 35.11086, 29.712969722222, 35.132759722222],
+                [29.712969722222, 35.132759722222, 29.696529722222, 35.151659722222],
+                [29.696529722222, 35.151659722222, 29.677499722222, 35.167],
+                [29.677499722222, 35.167, 29.65643, 35.178289722222],
+                [29.65643, 35.178289722222, 29.63398, 35.185209722222],
+                [29.63398, 35.185209722222, 29.610829722222, 35.187539722222],
+                [29.610829722222, 35.187539722222, 29.587679722222, 35.185209722222],
+                [29.587679722222, 35.185209722222, 29.565229722222, 35.178289722222],
+                [29.565229722222, 35.178289722222, 29.54416, 35.167],
+                [29.54416, 35.167, 29.52512, 35.151659722222],
+                [29.52512, 35.151659722222, 29.50869, 35.132759722222],
+                [29.50869, 35.132759722222, 29.49536, 35.11086],
+                [29.49536, 35.11086, 29.48554, 35.086629722222],
+                [29.48554, 35.086629722222, 29.47952, 35.060809722222],
+                [29.47952, 35.060809722222, 29.477499722222, 35.034179722222],
+                [29.477499722222, 35.034179722222, 29.47952, 35.00755],
+                [29.47952, 35.00755, 29.48554, 34.981729722222],
+                [29.48554, 34.981729722222, 29.74416, 35.034179722222]
             ]
         }
     ]
