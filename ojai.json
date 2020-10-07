@@ -10,10 +10,10 @@
     "ctr_radius": 110,
     "ctr_ceiling": 25000,
     "initial_alt": 5000,
-    "position": ["N31d43m26.86, E035d59m40.63", "2395ft"],
+    "position": ["N31d43m26.86", "E035d59m40.63", "2395ft"],
     "rangeRings": {
         "enabled": true,
-        "center": ["N31d43m26.86, E035d59m40.63"],
+        "center": ["N31d43m26.86", "E035d59m40.63"],
         "radius_nm": 5.0
     },
     "has_terrain": false,
@@ -295,24 +295,20 @@
     ],
     "runways":[
         {
-            "name": ["08L", "26R"],
+            "name": ["08R", "26L"],
             "end": [
                 ["N31d42m51.77", "E035d58m49.83", "2362.0ft"],
                 ["N31d43m11.57", "E036d01m06.89", "2395.0ft"]
             ],
-            "ils": [true, true],
-            "ils_distance": [20, 20],
-            "glideslope": [3.00, 3.00],
-            "loc_maxDist": [25, 30],
-            "ils_gs_maxHeight": [5500, 5500]
+            "ils": [false, true]
         },
         {
-            "name": ["08R", "26L"],
+            "name": ["08L", "26R"],
             "end": [
                 ["N31d43m36.23", "E035d58m10.15", "2357.7ft"],
                 ["N31d43m56.06", "E036d00m27.40", "2366.0ft"]
             ],
-            "ils": [false, true]
+            "ils": [true, true]
         }
     ],
     "airways":{
@@ -325,12 +321,12 @@
             "rwy": {
                 "OJAI26R": []
             },
-            "body": ["_DE26R", ["AI601", "A40+|S210-"], ["AI602", "S210-"]],
+            "body": ["_DE26R", ["_AI601", "A40+|S210-"], ["_AI602", "S210-"]],
             "exitPoints": {
-                "MOUAB": ["MOUAB", "A120+|S210-"]
+                "MOUAB": [["MOUAB", "A120+|S210-"]]
             },
             "draw": [
-                ["_DE26R", "AI601", "AI602", "MOUAB*"]
+                ["_DE26R", "_AI601", "_AI602", "MOUAB*"]
             ]
         }
     },
@@ -339,39 +335,39 @@
             "icao": "EGLOT1C",
             "name": "EGLOT One Charlie",
             "entryPoints": {
-                "EGLOT": ["EGLOT", "A90+"]
+                "EGLOT": [["EGLOT", "A90+"]]
             },
-            "body": [["AI269", "A70+"],["ASPAL","A60"]],
+            "body": [["_AI269", "A70+"],["ASPAL","A60"]],
             "rwy": {
                 "OJAI26L": [],
                 "OJAI26R": []
             },
-            "draw": [["EGLOT*", "AI269", "ASPAL"]]
+            "draw": [["EGLOT*", "_AI269", "ASPAL"]]
         },
         "ELOXI1C": {
             "icao": "ELOXI1C",
             "name": "ELOXI One Charlie",
             "entryPoints": {
-                "ELOXI": ["ELOXI", "A150+"]
+                "ELOXI": [["ELOXI", "A150+"]]
             },
-            "body": [["AI150", "A150+"],["ALNOR", "A98+"],["ASPAL", "A60"]],
+            "body": [["_AI150", "A150+"],["ALNOR", "A98+"],["ASPAL", "A60"]],
             "rwy": {
                 "OJAI26L": [],
                 "OJAI26R": []
             },
-            "draw": [["ELOXI*", "AI150", "ALNOR", "ASPAL"]]
+            "draw": [["ELOXI*", "_AI150", "ALNOR", "ASPAL"]]
         },
         "OSAMA6A": {
             "icao": "OSAMA6A",
             "name": "OSAMA Six Alpha",
             "entryPoints": {
-                "OSAMA": ["OSAMA","A110+"]
+                "OSAMA": [["OSAMA","A110+"]]
             },
-            "body": [["AI613","A90+"],["ORDUN","A60"], "#090"],
+            "body": [["_AI613","A90+"],["ORDUN","A60"], "#090"],
             "rwy": {
                 "OJAI26R": []
             },
-            "draw": [["OSAMA*", "AI613","ORDUN"]]
+            "draw": [["OSAMA*", "_AI613","ORDUN"]]
         }
     },
     "spawnPatterns": [
