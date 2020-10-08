@@ -58,6 +58,11 @@
         }
     ],
     "fixes": {
+        "_RWY26RQAA04DME": [31.742499722222, 36.079443888889],
+        "_RWY08LQAA15DME": [31.712221944444, 35.868888888889],
+        "_QAA104017": [31.649585833333, 36.472252777778],
+        "_QTR328015":[31.48235, 35.954863888889],
+        "_QAA029011":[31.8975, 36.278610833333],
         "ADLOD": ["N32d00m33.998", "E035d15m08.999"],
         "_AI087": ["N31d29m34.490", "E036d04m12.590"],
         "_AI088": ["N31d28m43.561", "E035d52m50.160"],
@@ -99,9 +104,12 @@
         "ALKOT": ["N31d32m54.218", "E037d11m21.508"],
         "ALNOR": ["N31d39m55.260", "E036d25m07.521"],
         "ALROD": ["N32d04m40.000", "E035d14m25.000"],
+        "AMN"  : [32.004068888889, 36.065985833333],
         "ASLON": ["N32d12m11.019", "E036d51m11.249"],
         "ASPAL": ["N31d39m55.450", "E036d13m38.189"],
-        "_DE26R": ["N31d43m31.659", "E035d57m38.789"],
+        "BAKIR": [29.681388888889, 35.118888888889],
+        "_DER08L": ["N31d44m00.571", "E036d00m58.780"],
+        "_DER26R": ["N31d43m31.659", "E035d57m38.789"],
         "EGLOT": ["N31d16m56.938", "E036d18m23.860"],
         "ELOXI": ["N31d34m00.991", "E036d45m34.228"],
         "_FI08L": ["N31d42m31.899", "E035d50m46.291"],
@@ -110,10 +118,12 @@
         "GENIS": ["N31d44m51.831", "E036d12m39.171"],
         "GEVUP": ["N31d41m01.341", "E035d46m07.330"],
         "GRY"  : ["N31d24m45.471", "E037d17m11.558"],
+        "IMLOL": [31.957046944444, 36.159963888889],
         "KAPIR": ["N31d41m49.459", "E035d45m55.101"],
         "KINEN": ["N31d51m22.449", "E035d51m24.660"],
         "KINUR": ["N31d36m26.071", "E036d37m12.781"],
         "KIPAS": ["N31d23m24.000", "E037d06m41.000"],
+        "KITUT": [31.745846944444, 36.101599722222],
         "KULDI": ["N31d18m47.070", "E036d32m14.161"],
         "LONIN": ["N31d52m56.139", "E036d23m14.708"],
         "LONOL": ["N30d08m00.600", "E035d35m00.099"],
@@ -123,6 +133,7 @@
         "LOXER": ["N32d01m47.758", "E036d22m51.459"],
         "LOXUS": ["N30d13m00.901", "E035d26m00.700"],
         "LUDAN": ["N32d02m56.601", "E036d37m13.288"],
+        "METSA": [29.451943888889, 34.984166944444],
         "MIDRU": ["N31d45m39.891", "E036d12m29.041"],
         "MOUAB": ["N31d47m57.998", "E035d35m58.999"],
         "MUNRA": ["N30d49m44.288", "E036d08m34.879"],
@@ -135,11 +146,13 @@
         "PASIP": ["N33d06m00.000", "E038d55m59.998"],
         "QAA"  : ["N31d44m23.409", "E036d09m26.578"],
         "QAA01": ["N31d44m23.409", "E036d09m26.589"],
+        "QATIM": [29.933332777778, 35.266666944444],
         "QTR"  : ["N31d14m54.409", "E036d03m34.311"],
         "QTR01": ["N31d14m54.409", "E036d03m34.311"],
         "RESOS": ["N31d46m46.570", "E035d44m59.071"],
         "SALAM": ["N31d55m59.998", "E035d31m00.001"],
         "SESMO": ["N29d34m58.000", "E035d11m58.999"],
+        "SIVIK": [31.733721944444, 36.114157777778],
         "SWIDA": ["N32d43m00.001", "E036d34m00.001"],
         "TALMI": ["N31d49m36.001", "E035d30m14.000"],
         "ULINA": ["N29d24m51.001", "E034d58m18.001"]
@@ -313,188 +326,190 @@
         }
     ],
     "airways":{
-        "N318": ["GENEX", "ELOXI", "KINUR", "ALNOR", "QAA01", "MOUAB"]
+        "N318": ["GRY","GENEX", "ELOXI", "KINUR", "ALNOR", "QAA01", "MOUAB"],
+        "M319": ["MOUAB","QTR01","LOSIL","LOXUS","SESMO","ULINA"],
+        "R652": ["GRY","KIPAS","KULDI","EGLOT","QTR01","LOSIL","LOXUS","QATIM","BAKIR","METSA"]
     },
     "sids": {
         "GENEX6T": {
-            "icao": "",
-            "name": "",
+            "icao": "GENEX6T",
+            "name": "GENEX Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A43+|S210-"],["_AI809","A130+"],["KINUR","A150+|S250-"],"ELOXI"],
             "exitPoints": {
-
+                "GENEX":[["GENEX","A250+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI809","KINUR","ELOXI","GENEX*"]]
         },
         "KIPAS6D": {
-            "icao": "",
-            "name": "",
+            "icao": "KIPAS6D",
+            "name": "KIPAS Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A34+|S230-"],["_AI088","A70+"],["EGLOT","S250-"],["_AI605","A150+"],"_AI606"],
             "exitPoints": {
-
+                "KIPAS":[["KIPAS","A250+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI088","EGLOT","_AI605","_AI606","KIPAS*"]]
         },
         "KIPAS6T": {
-            "icao": "",
-            "name": "",
+            "icao": "KIPAS6T",
+            "name": "KIPAS Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A38+|S230-"],["_AI804","A70+"],["_AI805","A150+|S250-"],"_AI608"],
             "exitPoints": {
-
+                "KIPAS":[["KIPAS","A250+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI804","_AI805","_AI806","KIPAS*"]]
         },
         "KULDI1Q": {
-            "icao": "",
-            "name": "",
+            "icao": "KULDI1Q",
+            "name": "KULDI One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["LOTES","S210-"],["_AI087","A70+"]],
             "exitPoints": {
-
+                "KULDI":[["KULDI","A150+"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","LOTES","_AI087","KULDI*"]]
         },
         "KULDI1S": {
-            "icao": "",
-            "name": "",
+            "icao": "KULDI1S",
+            "name": "KULDI One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ASPAL","S210-"],["_AI270","A70+"]],
             "exitPoints": {
-
+                "KULDI":[["KULDI","A150+"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ASPAL","_AI270","KULDI*"]]
         },
         "LOSAR6D": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR6D",
+            "name": "LOSAR Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A32+|S230-"],["_AI603","A60+|A80-"],["_AI604","A85+|S250-"],"LOXER"],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI603","_AI604","LOXER","LOSAR*"]]
         },
         "LOSAR6T": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR6T",
+            "name": "LOSAR Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A38+|S230-"],["_AI801","A60+|A90-"],["_AI808","A85+|S250-"],"LOXER"],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI801","_AI808","LOXER","LOSAR*"]]
         },
         "LOSAR1Q": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR1Q",
+            "name": "LOSAR One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["@RESOS","S210-"],["KINEN","S210-"],["IMLOL","A85+"],["LOXER","A90+"]],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","RESOS","KINEN","IMLOL","LOXER","LOSAR*"]]
         },
         "LOSAR1S": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR1S",
+            "name": "LOSAR One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ORDUN","S210-"],["LONIN","A85+"]],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ORDUN","ORDUN","LONIN","LOSAR*"]]
         },
         "LOSIL6D": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSIL6D",
+            "name": "LOSIL Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A33+|S230-"],["_AI088","A70+"]],
             "exitPoints": {
-
+                "LOSIL":[["LOSIL","A150+|S250-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI088","LOSIL*"]]
         },
         "LOSIL6T": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSIL6T",
+            "name": "LOSIL Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A35+|S230-"],["_AI804","A70+"],["_AI807","S250-"]],
             "exitPoints": {
-
+                "LOSIL":[["LOSIL","A150+|S250-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI804","_AI807","LOSIL*"]]
         },
         "LUDAN6D": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN6D",
+            "name": "LUDAN Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A32+|S230-"],["_AI603","A60+|A80-"],["_AI604","A85+|S250-"],"LOXER"],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI603","_AI604","LOXER","LUDAN*"]]
         },
         "LUDAN6T": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN6T",
+            "name": "LUDAN Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A38+|S230-"],["_AI801","A60+|A90-"],["_AI808","A85+|S250-"],"LOXER"],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI801","_AI808","LOXER","LUDAN*"]]
         },
         "LUDAN1Q": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN1Q",
+            "name": "LUDAN One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["@RESOS","S210-"],["KINEN","S210-"],["IMLOL","A85+"],["LOXER","A90+"]],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A110+"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","RESOS","KINEN","IMLOL","LOXER","LUDAN*"]]
         },
         "LUDAN1S": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN1S",
+            "name": "LUDAN One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ORDUN","S210-"],["LONIN","A85+"]],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A110+"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ORDUN","LONIN","LUDAN*"]]
         },
         "MOUAB6D": {
             "icao": "MOUAB6D",
@@ -502,205 +517,205 @@
             "rwy": {
                 "OJAI26R": []
             },
-            "body": ["_DE26R", ["_AI601", "A40+|S210-"], ["_AI602", "S210-"]],
+            "body": ["_DER26R", ["^_AI601", "A40+|S210-"], ["_AI602", "S210-"]],
             "exitPoints": {
                 "MOUAB": [["MOUAB", "A120+|S210-"]]
             },
             "draw": [
-                ["_DE26R", "_AI601", "_AI602", "MOUAB*"]
+                ["_DER26R", "_AI601", "_AI602", "MOUAB*"]
             ]
         },
         "MOUAB6T": {
-            "icao": "",
-            "name": "",
+            "icao": "MOUAB6T",
+            "name": "MOUAB Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A36+|S230-"],["_AI801","A60+|A90-"],["_AI802","S250-"],"_AI803"],
             "exitPoints": {
-
+                "MOUAB":[["MOUAB","A120+|S210-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI801","_AI802","_AI803","MOUAB*"]]
         },
         "MOUAB1Q": {
-            "icao": "",
-            "name": "",
+            "icao": "MOUAB1Q",
+            "name": "MOUAB One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["@RESOS","S210-"]],
             "exitPoints": {
-
+                "MOUAB":[["MOUAB","A110+"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","RESOS","MOUAB*"]]
         },
         "MOUAB1S": {
-            "icao": "",
-            "name": "",
+            "icao": "MOUAB1S",
+            "name": "MOUAB One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ORDUN","S210-"],"KINEN"],
             "exitPoints": {
-
+                "MOUAB":[["MOUAB","A110+"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ORDUN","KINEN","MOUAB*"]]
         },
         "MUNRA6D": {
-            "icao": "",
-            "name": "",
+            "icao": "MUNRA6D",
+            "name": "MUNRA Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A39+|S230-"],["_AI088","A70+"]],
             "exitPoints": {
-
+                "MUNRA":[["MUNRA","A250+|S250-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI088","MUNRA*"]]
         },
         "MUNRA6T": {
-            "icao": "",
-            "name": "",
+            "icao": "MUNRA6T",
+            "name": "MUNRA Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A40+|S230-"],["_AI804","A70+"],["_AI807","S250-"]],
             "exitPoints": {
-
+                "MUNRA":[["MUNRA","A250+|S250-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI804","_AI807","MUNRA*"]]
         },
         "OSAMA6D": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA6D",
+            "name": "OSAMA Six Delta",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_AI601","A32+|S210-"],["_AI602","A50+|S210-"]],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80+|S210-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_AI601","_AI602","OSAMA*"]]
         },
         "OSAMA6T": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA6T",
+            "name": "OSAMA Six Tango",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^KITUT","A36+|S230-"],["_AI801","A60+|A90-"],["_AI802","S250-"],"_AI803"],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","KITUT","_AI801","_AI802","_AI803","OSAMA*"]]
         },
         "OSAMA1Q": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA1Q",
+            "name": "OSAMA One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["@RESOS","S210-"]],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","RESOS","ORDUN*"]]
         },
         "OSAMA1S": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA1S",
+            "name": "OSAMA One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ORDUN","S210-"],"KINEN"],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ORDUN","KINEN","OSAMA*"]]
         },
         "QTR01Q": {
-            "icao": "",
-            "name": "",
+            "icao": "QTR01Q",
+            "name": "QTR01 One Quebec",
             "rwy": {
-
+                "OJAI26L":[]
             },
-            "body": [],
+            "body": [["OBTAN","S210-"],["LOTES","S210-"],["_AI088","A70+"]],
             "exitPoints": {
-
+                "QTR01":[["QTR01","A90+"]]
             },
-            "draw":[[]]
+            "draw":[["OBTAN","LOTES","_AI088","QTR01*"]]
         },
         "QTR01S": {
-            "icao": "",
-            "name": "",
+            "icao": "QTR01S",
+            "name": "QTR01 One Sierra",
             "rwy": {
-
+                "OJAI08R":[]
             },
-            "body": [],
+            "body": [["SIVIK","S210-"],["ASPAL","S210-"],["_AI268","A70+"]],
             "exitPoints": {
-
+                "QTR01":[["QTR01","A90+"]]
             },
-            "draw":[[]]
+            "draw":[["SIVIK","ASPAL","_AI268","QTR01*"]]
         },
         "GENEX6E": {
-            "icao": "",
-            "name": "",
+            "icao": "GENEX6E",
+            "name": "GENEX Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": [["^_RWY26RQAA04DME","S210-"],["_QAA104017","A130+"]],
             "exitPoints": {
-
+                "GENEX":["GENEX"]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","_RWY26RQAA04DME","_QAA104017","GENEX*"]]
         },
         "KIPAS6E": {
-            "icao": "",
-            "name": "",
+            "icao": "KIPAS6E",
+            "name": "KIPAS Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": [["^_RWY26RQAA04DME","S230-"],["_QAA104017","A70+"],["KULDI","A150+"]],
             "exitPoints": {
-
+                "KIPAS":["KIPAS"]
             },
-            "draw":[[]]
+            "draw":[["_DEr08L","_RWY26RQAA04DME","_QAA104017","KULDI","KIPAS*"]]
         },
         "KIPAS6W": {
-            "icao": "",
-            "name": "",
+            "icao": "KIPAS6W",
+            "name": "KIPAS Six Whisky",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": [["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"],"QTR",["KULDI","A150+"]],
             "exitPoints": {
-
+                "KIPAS":["KIPAS"]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA15DME","_QTR328015","QTR","KULDI","KIPAS*"]]
         },
         "LOSAR6E": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR6E",
+            "name": "LOSAR Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["_RWY26RQAA04DME","S210-"],["_QAA029011","A85+"]],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","_RWY26RQAA04DME","_QAA029011","LOSAR*"]]
         },
         "LOSAR6W": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSAR6W",
+            "name": "LOSAR Six Whisky",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],"AMN"],
             "exitPoints": {
-
+                "LOSAR":[["LOSAR","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA15DME","AMN","LOSAR*"]]
         },
         "LOSIL6E": {
             "icao": "",
@@ -1007,148 +1022,148 @@
             "draw":[["QTR01*", "_AI088", "LOTES"]]
         },
         "LOSAR6L": {
-            "icao":"",
-            "name": "",
+            "icao":"LOSAR6L",
+            "name": "LOSAR Six Lima",
             "entryPoints": {
-
+                "LOSAR":[["LOSAR", "A160+"]]
             },
-            "body": [],
+            "body": [["_AI610", "A130+"],["_AI620", "A120+"],["_AI614", "A100+"],["RESOS", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["LOSAR*","_AI610","_AI620","_AI614","RESOS"]]
         },
         "LUDAN6L": {
-            "icao":"",
-            "name": "",
+            "icao":"LUDAN6L",
+            "name": "LUDAN Six Lima",
             "entryPoints": {
-
+                "LUDAN":[["LUDAN", "A160+"]]
             },
-            "body": [],
+            "body": [["_AI610", "A130+"],["_AI620", "A120+"],["_AI614", "A100+"],["RESOS", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["LUDAN*","_AI610","_AI620","_AI614","RESOS"]]
         },
         "KIPAS6L": {
-            "icao":"",
-            "name": "",
+            "icao":"KIPAS6L",
+            "name": "KIPAS Six Lima",
             "entryPoints": {
-
+                "KIPAS":[["KIPAS", "A260+"]]
             },
-            "body": [],
+            "body": [["_AI606", "A200+"],["_AI605", "A150+"],"EGLOT",["_AI618","A120+"],["_AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["KIPAS*","_AI606","_AI605","EGLOT","_AI618","_AI617","LOTES"]]
         },
         "LOSIL6L": {
-            "icao":"",
-            "name": "",
+            "icao":"LOSIL6L",
+            "name": "LOSIL Six Lima",
             "entryPoints": {
-
+                "LOSIL":[["LOSIL", "A160+"]]
             },
-            "body": [],
+            "body": [["_AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["LOSIL*","_AI617","LOTES"]]
         },
         "MUNRA6L": {
-            "icao":"",
-            "name": "",
+            "icao":"MUNRA6L",
+            "name": "MUNRA Six Lima",
             "entryPoints": {
-
+                "MUNRA":[["MUNRA", "A260+"]]
             },
-            "body": [],
+            "body": [["_AI616", "A160+"],["_AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["MUNRA*","_AI616","_AI617","LOTES"]]
         },
         "OSAMA6L": {
-            "icao":"",
-            "name": "",
+            "icao":"OSAMA6L",
+            "name": "OSAMA Six Lima",
             "entryPoints": {
-
+                "OSAMA":[["OSAMA", "A110+"]]
             },
-            "body": [],
+            "body": [["_AI803", "A60+"],["RESOS", "A60|S210-"]],
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "draw":[[]]
+            "draw":[["OSAMA*","_AI803","RESOS"]]
         },
         "GENEX6A": {
-            "icao":"",
-            "name": "",
+            "icao":"GENEX6A",
+            "name": "GENEX Six Alpha",
             "entryPoints": {
-
+                "GENEX":[["GENEX", "A260+"]]
             },
-            "body": [],
+            "body": [["ELOXI", "A150+"],["KINUR", "A150+"],["_AI809", "A70+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["GENEX*","ELOXI","KINUR","_AI809","AIWAH"]]
         },
         "LOSAR6A": {
-            "icao":"",
-            "name": "",
+            "icao":"LOSAR6A",
+            "name": "LOSAR Six Alpha",
             "entryPoints": {
-
+                "LOSAR":[["LOSAR","A160+"]]
             },
-            "body": [],
+            "body": [["_AI610","A130+|S210-"],["_AI620","A85+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["LOSAR*","_AI610","_AI620","AIWAH"]]
         },
         "LUDAN6A": {
-            "icao":"",
-            "name": "",
+            "icao":"LUDAN6A",
+            "name": "LUDAN Six Alpha",
             "entryPoints": {
-
+                "LUDAN":[["LUDAN","A160+"]]
             },
-            "body": [],
+            "body": [["_AI610","A130+|S210-"],["_AI620","A85+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["LUDAN*","_AI610","_AI620","AIWAH"]]
         },
         "KIPAS6A": {
-            "icao":"",
-            "name": "",
+            "icao":"KIPAS6A",
+            "name": "KIPAS Six Alpha",
             "entryPoints": {
-
+                "KIPAS":[["KIPAS", "A260+"]]
             },
-            "body": [],
+            "body": [["_AI806", "A200+"],["_AI805", "A150+"],["_AI269", "A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["KIPAS*","_AI806","_AI805","_AI269","ASPAL"]]
         },
         "LOSIL6A": {
-            "icao":"",
-            "name": "",
+            "icao":"LOSIL6A",
+            "name": "LOSIL Six Alpha",
             "entryPoints": {
-
+                "LOSIL":[["LOSIL","A160+"]]
             },
-            "body": [],
+            "body": ["_AI609",["_AI608","A130+"],["_AI607","A130+"],["_AI269","A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["LOSIL*","_AI609","_AI608","_AI607","_AI269","ASPAL"]]
         },
         "MUNRA6A": {
-            "icao":"",
-            "name": "",
+            "icao":"MUNRA6A",
+            "name": "MUNRA Six Alpha",
             "entryPoints": {
-
+                "MUNRA":[["MUNRA","A260+"]]
             },
-            "body": [],
+            "body": [["_AI608","A130+"],["_AI607","A130+"],["_AI269","A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "draw":[[]]
+            "draw":[["MUNRA*","_AI608","_AI607","_AI269","ASPAL"]]
         },
         "OSAMA6A": {
             "icao": "OSAMA6A",
@@ -1187,14 +1202,32 @@
             ]
         },
         {
-            "origin": "",
-            "destination": "OJAI",
-            "category": "arrival",
-            "route":"GRY..ELOXI.ELOXI1C.OJAI26R",
-            "altitude": [17000, 26000],
-            "speed": 320,
+            "origin":"OJAI",
+            "destination":"",
+            "category":"departure",
+            "route":"OJAI26R.LOSIL6D.LOSIL.M319.ULINA",
+            "altitude":"",
+            "speed":"",
             "method":"random",
-            "rate": 7,
+            "rate":3,
+            "airlines": [
+                ["rja", 10],
+                ["rja/long", 2],
+                ["msr", 4],
+                ["ram", 1],
+                ["dah", 1],
+                ["clx", 1]
+            ]
+        },
+        {
+            "origin":"OJAI",
+            "destination":"",
+            "category":"departure",
+            "route":"OJAI26R.KIPAS6D.KIPAS.R652.GRY",
+            "altitude":"",
+            "speed":"",
+            "method":"random",
+            "rate":5,
             "airlines": [
                 ["rja", 8],
                 ["rja/long", 2],
@@ -1205,6 +1238,57 @@
                 ["sva", 4],
                 ["jza", 2],
                 ["oma", 1]
+            ]
+        },
+        {
+            "origin":"",
+            "destination":"OJAI",
+            "category":"arrival",
+            "route":"ULINA.M319.LOSIL.LOSIL6A.OJAI26R",
+            "altitude":[29000, 31000],
+            "speed":300,
+            "method":"random",
+            "rate":3,
+            "airlines": [
+                ["rja", 10],
+                ["rja/long", 2],
+                ["msr", 4],
+                ["ram", 1],
+                ["dah", 1],
+                ["clx", 1]
+            ]
+        },
+        {
+            "origin": "",
+            "destination": "OJAI",
+            "category": "arrival",
+            "route":"GRY.N318.GENEX.GENEX6A.OJAI26R",
+            "altitude": [21000, 25000],
+            "speed": 320,
+            "method":"random",
+            "rate": 5,
+            "airlines": [
+                ["rja", 8],
+                ["rja/long", 2],
+                ["fdb", 2],
+                ["kne", 1],
+                ["kac", 2],
+                ["sva", 4],
+                ["jza", 2],
+                ["oma", 1]
+            ]
+        },
+        {
+            "origin":"",
+            "destination":"OJAI",
+            "category":"arrival",
+            "route":"GRY.N318.ELOXI.ELOXI1C.OJAI26L",
+            "altitude":[21000, 25000],
+            "speed": 300,
+            "method":"random",
+            "rate":2,
+            "airlines": [
+                ["uae", 2]
             ]
         },
         {
