@@ -60,9 +60,15 @@
     "fixes": {
         "_RWY26RQAA04DME": [31.742499722222, 36.079443888889],
         "_RWY08LQAA15DME": [31.712221944444, 35.868888888889],
+        "_RWY08LQAA20DME": [31.695, 35.750555833333],
         "_QAA104017": [31.649585833333, 36.472252777778],
         "_QTR328015":[31.48235, 35.954863888889],
         "_QAA029011":[31.8975, 36.278610833333],
+        "_QAA186014": [31.492877777778, 36.108077777778],
+        "_QAA048015": [31.898610833333, 36.394166944444],
+        "_QAA273024": [31.790444166667, 35.682315],
+        "_QAA270014": [31.768406388889, 35.884565833333],
+        "_QAA299005": [31.787949166667, 36.07169],
         "ADLOD": ["N32d00m33.998", "E035d15m08.999"],
         "_AI087": ["N31d29m34.490", "E036d04m12.590"],
         "_AI088": ["N31d28m43.561", "E035d52m50.160"],
@@ -683,7 +689,7 @@
         },
         "KIPAS6W": {
             "icao": "KIPAS6W",
-            "name": "KIPAS Six Whisky",
+            "name": "KIPAS Six Whiskey",
             "rwy": {
                 "OJAI26R":[]
             },
@@ -699,7 +705,7 @@
             "rwy": {
                 "OJAI08L":[]
             },
-            "body": ["_DER08L",["_RWY26RQAA04DME","S210-"],["_QAA029011","A85+"]],
+            "body": ["_DER08L",["^_RWY26RQAA04DME","S210-"],["_QAA029011","A85+"]],
             "exitPoints": {
                 "LOSAR":[["LOSAR","A130+"]]
             },
@@ -707,7 +713,7 @@
         },
         "LOSAR6W": {
             "icao": "LOSAR6W",
-            "name": "LOSAR Six Whisky",
+            "name": "LOSAR Six Whiskey",
             "rwy": {
                 "OJAI26R":[]
             },
@@ -718,124 +724,124 @@
             "draw":[["_DER26R","_RWY08LQAA15DME","AMN","LOSAR*"]]
         },
         "LOSIL6E": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSIL6E",
+            "name": "LOSIL Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^_RWY26RQAA04DME","S230-"],["_QAA186014","A70+"],"QTR"],
             "exitPoints": {
-
+                "LOSIL": [["LOSIL","A150+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","_RWY26RQAA04DME","_QAA186014","QTR","LOSIL*"]]
         },
         "LOSIL6W": {
-            "icao": "",
-            "name": "",
+            "icao": "LOSIL6W",
+            "name": "LOSIL Six Whiskey",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"],"QTR"],
             "exitPoints": {
-
+                "LOSIL":[["LOSIL","A150+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA15DME","_QTR328015","QTR","LOSIL*"]]
         },
         "LUDAN6E": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN6E",
+            "name": "LUDAN Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L","^_RWY26RQAA04DME",["QAA","S230-"],["_QAA048015","A85+"]],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","^_RWY26RQAA04DME","QAA","_QAA048015","LUDAN*"]]
         },
         "LUDAN6W": {
-            "icao": "",
-            "name": "",
+            "icao": "LUDAN6W",
+            "name": "LUDAN Six Whiskey",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],"AMN"],
             "exitPoints": {
-
+                "LUDAN":[["LUDAN","A130+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA15DME","AMN","LUDAN*"]]
         },
         "MOUAB6E": {
-            "icao": "",
-            "name": "",
+            "icao": "MOUAB6E",
+            "name": "MOUAB Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^_RWY26RQAA04DME","S210-"],["^_QAA299005","S210-"],"_QAA270014","_QAA273024"],
             "exitPoints": {
-
+                "MOUAB":[["MOUAB","A120+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","_RWY26RQAA04DME","_QAA299005","_QAA270014","_QAA273024","MOUAB*"]]
         },
         "MOUAB6W": {
-            "icao": "",
-            "name": "",
+            "icao": "MOUAB6W",
+            "name": "MOUAB Six Whiskey",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_RWY08LQAA20DME","S210-"],["_QAA273024","S210-"]],
             "exitPoints": {
-
+                "MOUAB":[["MOUAB","A120+|S210-"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA20DME","_QAA273024","MOUAB*"]]
         },
         "MUNRA6E": {
-            "icao": "",
-            "name": "",
+            "icao": "MUNRA6E",
+            "name": "MUNRA Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L",["^_RWY26RQAA04DME","S230-"],["QAA","S230-"],["_QAA186014","A70+"]],
             "exitPoints": {
-
+                "MUNRA":["QTR",["MUNRA","A250+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","^_RWY26RQAA04DME","QAA","_QAA186014","QTR","MUNRA*"]]
         },
         "MUNRA6W": {
-            "icao": "",
-            "name": "",
+            "icao": "MUNRA6W",
+            "name": "MUNRA Six Whiskey",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"]],
             "exitPoints": {
-
+                "MUNRA":["QTR",["MUNRA","A250+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","_RWY08LQAA15DME","_QTR328015","QTR","MUNRA*"]]
         },
         "OSAMA6E": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA6E",
+            "name": "OSAMA Six Echo",
             "rwy": {
-
+                "OJAI08L":[]
             },
-            "body": [],
+            "body": ["_DER08L"],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER08L","OSAMA*"]]
         },
         "OSAMA6W": {
-            "icao": "",
-            "name": "",
+            "icao": "OSAMA6W",
+            "name": "OSAMA Six Whiskey",
             "rwy": {
-
+                "OJAI26R":[]
             },
-            "body": [],
+            "body": ["_DER26R"],
             "exitPoints": {
-
+                "OSAMA":[["OSAMA","A80+"]]
             },
-            "draw":[[]]
+            "draw":[["_DER26R","OSAMA*"]]
         }
     },
     "stars": {

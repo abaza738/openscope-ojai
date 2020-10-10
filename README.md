@@ -17,7 +17,6 @@ The Civil Aviation Regulatory Commission of Jordan is the air navigation service
 | Amman Approach | 128.900 MHz |
 | Queen Alia Tower | 119.800 MHz |
 | Queen Alia Ground | 121.900 MHz |
-|
 
 ## **Sectors Available on Openscope**
 For simulation purposes, the only available sector is *Amman Approach*. Other sectors are included in the definitions but not simulated.
