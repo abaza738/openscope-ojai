@@ -58,17 +58,22 @@
         }
     ],
     "fixes": {
-        "_RWY26RQAA04DME": [31.742499722222, 36.079443888889],
-        "_RWY08LQAA15DME": [31.712221944444, 35.868888888889],
-        "_RWY08LQAA20DME": [31.695, 35.750555833333],
+        "_DER08L": ["N31d44m00.571", "E036d00m58.780"],
+        "_DER26R": ["N31d43m31.659", "E035d57m38.789"],
+        "_FI08L": ["N31d42m31.899", "E035d50m46.291"],
+        "_FI26R": ["N31d44m59.089", "E036d07m44.489"],
         "_QAA104017": [31.649585833333, 36.472252777778],
-        "_QTR328015":[31.48235, 35.954863888889],
         "_QAA029011":[31.8975, 36.278610833333],
         "_QAA186014": [31.492877777778, 36.108077777778],
         "_QAA048015": [31.898610833333, 36.394166944444],
         "_QAA273024": [31.790444166667, 35.682315],
         "_QAA270014": [31.768406388889, 35.884565833333],
         "_QAA299005": [31.787949166667, 36.07169],
+        "_QTR328015":[31.48235, 35.954863888889],
+        "_RWY26RQAA04DME": [31.742499722222, 36.079443888889],
+        "_RWY08LQAA15DME": [31.712221944444, 35.868888888889],
+        "_RWY08LQAA20DME": [31.695, 35.750555833333],
+        "ABIMI": ["N31d54m16.999", "E035d14m35.001"],
         "ADLOD": ["N32d00m33.998", "E035d15m08.999"],
         "AI087": ["N31d29m34.490", "E036d04m12.590"],
         "AI088": ["N31d28m43.561", "E035d52m50.160"],
@@ -110,27 +115,44 @@
         "ALKOT": ["N31d32m54.218", "E037d11m21.508"],
         "ALNOR": ["N31d39m55.260", "E036d25m07.521"],
         "ALROD": ["N32d04m40.000", "E035d14m25.000"],
-        "AMN"  : [32.004068888889, 36.065985833333],
+        "AMN"  : ["N32d00m14.648", "E036d03m57.549"],
+        "ASH"  : ["N30d07m21.799", "E038d47m53.300"],
         "ASLON": ["N32d12m11.019", "E036d51m11.249"],
         "ASPAL": ["N31d39m55.450", "E036d13m38.189"],
-        "BAKIR": [29.681388888889, 35.118888888889],
-        "_DER08L": ["N31d44m00.571", "E036d00m58.780"],
-        "_DER26R": ["N31d43m31.659", "E035d57m38.789"],
+        "BAKIR": ["N29d40m53.000", "E035d07m08.000"],
+        "BGN"  : ["N32d00m47.199", "E034d52m31.299"],
+        "BUSRA": ["N32d19m59.998", "E036d37m00.001"],
+        "DAPUK": ["N33d01m39.439", "E038d40m26.288"],
+        "DATOK": ["N29d36m24.001", "E034d13m59.998"],
+        "DAXEN": ["N32d44m44.790", "E037d41m05.258"],
+        "DEESA": ["N29d45m09.000", "E036d41m02.000"],
+        "DESLI": ["N31d49m00.098", "E036d59m00.599"],
         "EGLOT": ["N31d16m56.938", "E036d18m23.860"],
+        "ELETA": ["N29d32m00.801", "E035d29m00.099"],
         "ELOXI": ["N31d34m00.991", "E036d45m34.228"],
-        "_FI08L": ["N31d42m31.899", "E035d50m46.291"],
-        "_FI26R": ["N31d44m59.089", "E036d07m44.489"],
         "GENEX": ["N31d29m35.469", "E037d00m51.519"],
         "GENIS": ["N31d44m51.831", "E036d12m39.171"],
+        "GETUP": ["N31d58m33.470", "E036d30m37.468"],
         "GEVUP": ["N31d41m01.341", "E035d46m07.330"],
+        "GIBET": ["N29d26m20.000", "E036d25m00.998"],
+        "GIBOX": ["N32d07m00.001", "E036d33m07.999"],
+        "GOBRI": ["N31d51m51.001", "E035d22m44.000"],
+        "GODED": ["N32d09m53.999", "E034d34m22.000"],
         "GRY"  : ["N31d24m45.471", "E037d17m11.558"],
-        "IMLOL": [31.957046944444, 36.159963888889],
+        "IMLOL": ["N31d57m25.369", "E036d09m35.870"],
+        "ITERO": ["N31d56m04.300", "E035d08m31.678"],
         "KAPIR": ["N31d41m49.459", "E035d45m55.101"],
+        "KAREM": ["N32d51m10.400", "E038d03m24.379"],
+        "KARIK": ["N29d26m33.381", "E034d45m40.701"],
         "KINEN": ["N31d51m22.449", "E035d51m24.660"],
+        "KINOD": ["N30d12m00.298", "E036d16m00.598"],
         "KINUR": ["N31d36m26.071", "E036d37m12.781"],
         "KIPAS": ["N31d23m24.000", "E037d06m41.000"],
-        "KITUT": [31.745846944444, 36.101599722222],
+        "KITUT": ["N31d44m45.049", "E036d06m05.759"],
+        "KODER": ["N32d32m59.999", "E037d38m00.499"],
         "KULDI": ["N31d18m47.070", "E036d32m14.161"],
+        "KUMLO": ["N32d58m11.819", "E038d28m07.669"],
+        "KUPRI": ["N32d08m25.868", "E036d45m30.211"],
         "LONIN": ["N31d52m56.139", "E036d23m14.708"],
         "LONOL": ["N30d08m00.600", "E035d35m00.099"],
         "LOSAR": ["N32d09m30.059", "E036d28m49.771"],
@@ -139,29 +161,50 @@
         "LOXER": ["N32d01m47.758", "E036d22m51.459"],
         "LOXUS": ["N30d13m00.901", "E035d26m00.700"],
         "LUDAN": ["N32d02m56.601", "E036d37m13.288"],
-        "METSA": [29.451943888889, 34.984166944444],
+        "MESIL": ["N32d06m38.001", "E034d54m05.000"],
+        "MESLO": ["N32d02m30.998", "E036d31m48.000"],
+        "METSA": ["N29d27m06.998", "E034d59m03.001"],
         "MIDRU": ["N31d45m39.891", "E036d12m29.041"],
+        "MODAD": ["N32d35m39.879", "E038d41m38.140"],
         "MOUAB": ["N31d47m57.998", "E035d35m58.999"],
         "MUNRA": ["N30d49m44.288", "E036d08m34.879"],
         "NADEK": ["N32d27m28.000", "E037d14m29.000"],
+        "NAMBO": ["N33d18m20.001", "E038d39m42.001"],
+        "NWB"  : ["N29d01m55.999", "E034d40m15.999"],
         "OBTAN": ["N31d42m01.609", "E035d53m03.339"],
         "ORDUN": ["N31d51m24.019", "E036d11m21.008"],
         "ORKAB": ["N31d55m47.330", "E035d53m15.961"],
+        "ORKAS": ["N30d47m25.000", "E038d46m17.000"],
+        "ORLEV": ["N32d01m35.000", "E034d38m12.001"],
         "ORNAL": ["N32d47m54.589", "E037d51m52.729"],
+        "ORPAZ": ["N32d01m46.520", "E035d11m00.420"],
         "OSAMA": ["N31d55m50.001", "E035d37m05.998"],
+        "OTILA": ["N32d01m31.000", "E039d01m52.838"],
         "PASIP": ["N33d06m00.000", "E038d55m59.998"],
+        "PETRA": ["N29d42m06.001", "E036d22m09.998"],
+        "PURLA": ["N32d02m56.000", "E034d13m46.999"],
         "QAA"  : ["N31d44m23.409", "E036d09m26.578"],
         "QAA01": ["N31d44m23.409", "E036d09m26.589"],
-        "QATIM": [29.933332777778, 35.266666944444],
+        "QATIM": ["N29d55m59.998", "E035d16m00.001"],
         "QTR"  : ["N31d14m54.409", "E036d03m34.311"],
         "QTR01": ["N31d14m54.409", "E036d03m34.311"],
+        "RASLI": ["N31d54m24.001", "E038d36m47.998"],
         "RESOS": ["N31d46m46.570", "E035d44m59.071"],
         "SALAM": ["N31d55m59.998", "E035d31m00.001"],
         "SESMO": ["N29d34m58.000", "E035d11m58.999"],
-        "SIVIK": [31.733721944444, 36.114157777778],
+        "SIVIK": ["N31d44m01.399", "E036d06m50.968"],
+        "SODAR": ["N31d56m02.000", "E038d43m26.000"],
+        "SOKAN": ["N33d08m08.998", "E038d22m06.999"],
         "SWIDA": ["N32d43m00.001", "E036d34m00.001"],
+        "TAKSU": ["N29d36m24.958", "E034d36m22.651"],
         "TALMI": ["N31d49m36.001", "E035d30m14.000"],
-        "ULINA": ["N29d24m51.001", "E034d58m18.001"]
+        "TAMIM": ["N29d36m39.999", "E035d48m39.999"],
+        "TAPUZ": ["N32d01m56.999", "E034d31m23.998"],
+        "TRF"  : ["N31d41m45.999", "E038d44m08.098"],
+        "ULINA": ["N29d24m51.001", "E034d58m18.001"],
+        "VOLFO": ["N32d20m17.599", "E034d10m01.808"],
+        "YOGGA": ["N31d58m41.761", "E034d59m38.569"],
+        "ZELAF": ["N32d56m56.198", "E037d59m59.258"]
     },
     "restricted": [
         {
@@ -332,16 +375,30 @@
         }
     ],
     "airways":{
-        "N318": ["GRY","GENEX", "ELOXI", "KINUR", "ALNOR", "QAA01", "MOUAB"],
+        "A412": ["OSAMA","QAA01","GETUP","LUDAN","KUPRI","ASLON","NADEK","DAXEN","ZELAF"],
+        "G662": ["ASH","GRY","ALKOT","DESLI","KUPRI","BUSRA"],
+        "L200": ["OSAMA","AMN","LOXER","MESLO","LUDAN","KUPRI","ASLON","NADEK","DAXEN","ORNAL","KAREM","KUMLO","DAPUK","PASIP"],
+        "L513": ["MUNRA","QTR01","QAA01","LOXER","LOSAR","BUSRA","SWIDA"],
+        "L53": ["TALMI","GOBRI","ABIMI","ITERO","YOGGA","BGN","ORLEV","TAPUZ","PURLA"],
+        "L550": ["DATOK","TAKSU","KARIK","NWB"],
         "M319": ["MOUAB","QTR01","LOSIL","LOXUS","SESMO","ULINA"],
-        "R652": ["GRY","KIPAS","KULDI","EGLOT","QTR01","LOSIL","LOXUS","QATIM","BAKIR","METSA"]
+        "M690": ["NWB","ULINA"],
+        "N134": ["VOLFO","GODED","MESIL","ORPAZ","ADLOD","SALAM"],
+        "N318": ["ORKAS","GRY","GENEX", "ELOXI", "KINUR", "ALNOR", "QAA01", "MOUAB"],
+        "R652": ["TRF","GRY","KIPAS","KULDI","EGLOT","QTR01","LOSIL","LOXUS","QATIM","BAKIR","METSA"],
+        "UB411": ["ULINA","ELETA","TAMIM","PETRA","DEESA"],
+        "UB544": ["TRF","SODAR","MODAD","DAPUK","NAMBO"],
+        "UL768": ["OTILA","MODAD","KUMLO","SOKAN"],
+        "UM449": ["GIBET","PETRA","KINOD","MUNRA","EGLOT","ALNOR","GETUP","MESLO","GIBOX","BUSRA"],
+        "UM690": ["ULINA","SESMO","LONOL","MUNRA","KULDI","ELOXI","DESLI","KODER","ORNAL","ZELAF"],
+        "UR785": ["ZELAF","KAREM","RASLI","TRF"]
     },
     "sids": {
         "GENEX6T": {
             "icao": "GENEX6T",
             "name": "GENEX Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A43+|S210-"],["AI809","A130+"],["KINUR","A150+|S250-"],"ELOXI"],
             "exitPoints": {
@@ -353,7 +410,7 @@
             "icao": "KIPAS6D",
             "name": "KIPAS Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A34+|S230-"],["AI088","A70+"],["EGLOT","S250-"],["AI605","A150+"],"AI606"],
             "exitPoints": {
@@ -365,7 +422,7 @@
             "icao": "KIPAS6T",
             "name": "KIPAS Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A38+|S230-"],["AI804","A70+"],["AI805","A150+|S250-"],"AI608"],
             "exitPoints": {
@@ -377,7 +434,7 @@
             "icao": "KULDI1Q",
             "name": "KULDI One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["LOTES","S210-"],["AI087","A70+"]],
             "exitPoints": {
@@ -401,7 +458,7 @@
             "icao": "LOSAR6D",
             "name": "LOSAR Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A32+|S230-"],["AI603","A60+|A80-"],["AI604","A85+|S250-"],"LOXER"],
             "exitPoints": {
@@ -413,7 +470,7 @@
             "icao": "LOSAR6T",
             "name": "LOSAR Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A38+|S230-"],["AI801","A60+|A90-"],["AI808","A85+|S250-"],"LOXER"],
             "exitPoints": {
@@ -425,7 +482,7 @@
             "icao": "LOSAR1Q",
             "name": "LOSAR One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["@RESOS","S210-"],["KINEN","S210-"],["IMLOL","A85+"],["LOXER","A90+"]],
             "exitPoints": {
@@ -449,7 +506,7 @@
             "icao": "LOSIL6D",
             "name": "LOSIL Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A33+|S230-"],["AI088","A70+"]],
             "exitPoints": {
@@ -461,7 +518,7 @@
             "icao": "LOSIL6T",
             "name": "LOSIL Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A35+|S230-"],["AI804","A70+"],["AI807","S250-"]],
             "exitPoints": {
@@ -473,7 +530,7 @@
             "icao": "LUDAN6D",
             "name": "LUDAN Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A32+|S230-"],["AI603","A60+|A80-"],["AI604","A85+|S250-"],"LOXER"],
             "exitPoints": {
@@ -485,7 +542,7 @@
             "icao": "LUDAN6T",
             "name": "LUDAN Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A38+|S230-"],["AI801","A60+|A90-"],["AI808","A85+|S250-"],"LOXER"],
             "exitPoints": {
@@ -497,7 +554,7 @@
             "icao": "LUDAN1Q",
             "name": "LUDAN One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["@RESOS","S210-"],["KINEN","S210-"],["IMLOL","A85+"],["LOXER","A90+"]],
             "exitPoints": {
@@ -521,7 +578,7 @@
             "icao": "MOUAB6D",
             "name": "MOUAB Six Delta",
             "rwy": {
-                "OJAI26R": []
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R", ["^AI601", "A40+|S210-"], ["AI602", "S210-"]],
             "exitPoints": {
@@ -535,7 +592,7 @@
             "icao": "MOUAB6T",
             "name": "MOUAB Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A36+|S230-"],["AI801","A60+|A90-"],["AI802","S250-"],"AI803"],
             "exitPoints": {
@@ -547,7 +604,7 @@
             "icao": "MOUAB1Q",
             "name": "MOUAB One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["@RESOS","S210-"]],
             "exitPoints": {
@@ -571,7 +628,7 @@
             "icao": "MUNRA6D",
             "name": "MUNRA Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A39+|S230-"],["AI088","A70+"]],
             "exitPoints": {
@@ -583,7 +640,7 @@
             "icao": "MUNRA6T",
             "name": "MUNRA Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A40+|S230-"],["AI804","A70+"],["AI807","S250-"]],
             "exitPoints": {
@@ -595,7 +652,7 @@
             "icao": "OSAMA6D",
             "name": "OSAMA Six Delta",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^AI601","A32+|S210-"],["AI602","A50+|S210-"]],
             "exitPoints": {
@@ -607,7 +664,7 @@
             "icao": "OSAMA6T",
             "name": "OSAMA Six Tango",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^KITUT","A36+|S230-"],["AI801","A60+|A90-"],["AI802","S250-"],"AI803"],
             "exitPoints": {
@@ -619,7 +676,7 @@
             "icao": "OSAMA1Q",
             "name": "OSAMA One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["@RESOS","S210-"]],
             "exitPoints": {
@@ -643,7 +700,7 @@
             "icao": "QTR01Q",
             "name": "QTR01 One Quebec",
             "rwy": {
-                "OJAI26L":[]
+                "OJAI26L":[["QAA","A46+|S180-"]]
             },
             "body": [["OBTAN","S210-"],["LOTES","S210-"],["AI088","A70+"]],
             "exitPoints": {
@@ -667,7 +724,7 @@
             "icao": "GENEX6E",
             "name": "GENEX Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": [["^_RWY26RQAA04DME","S210-"],["_QAA104017","A130+"]],
             "exitPoints": {
@@ -679,7 +736,7 @@
             "icao": "KIPAS6E",
             "name": "KIPAS Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": [["^_RWY26RQAA04DME","S230-"],["_QAA104017","A70+"],["KULDI","A150+"]],
             "exitPoints": {
@@ -691,7 +748,7 @@
             "icao": "KIPAS6W",
             "name": "KIPAS Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": [["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"],"QTR",["KULDI","A150+"]],
             "exitPoints": {
@@ -703,7 +760,7 @@
             "icao": "LOSAR6E",
             "name": "LOSAR Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^_RWY26RQAA04DME","S210-"],["_QAA029011","A85+"]],
             "exitPoints": {
@@ -715,7 +772,7 @@
             "icao": "LOSAR6W",
             "name": "LOSAR Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],"AMN"],
             "exitPoints": {
@@ -727,7 +784,7 @@
             "icao": "LOSIL6E",
             "name": "LOSIL Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^_RWY26RQAA04DME","S230-"],["_QAA186014","A70+"],"QTR"],
             "exitPoints": {
@@ -739,7 +796,7 @@
             "icao": "LOSIL6W",
             "name": "LOSIL Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"],"QTR"],
             "exitPoints": {
@@ -751,7 +808,7 @@
             "icao": "LUDAN6E",
             "name": "LUDAN Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L","^_RWY26RQAA04DME",["QAA","S230-"],["_QAA048015","A85+"]],
             "exitPoints": {
@@ -763,7 +820,7 @@
             "icao": "LUDAN6W",
             "name": "LUDAN Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],"AMN"],
             "exitPoints": {
@@ -775,7 +832,7 @@
             "icao": "MOUAB6E",
             "name": "MOUAB Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^_RWY26RQAA04DME","S210-"],["^_QAA299005","S210-"],"_QAA270014","_QAA273024"],
             "exitPoints": {
@@ -787,7 +844,7 @@
             "icao": "MOUAB6W",
             "name": "MOUAB Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^_RWY08LQAA20DME","S210-"],["_QAA273024","S210-"]],
             "exitPoints": {
@@ -799,7 +856,7 @@
             "icao": "MUNRA6E",
             "name": "MUNRA Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L",["^_RWY26RQAA04DME","S230-"],["QAA","S230-"],["_QAA186014","A70+"]],
             "exitPoints": {
@@ -811,7 +868,7 @@
             "icao": "MUNRA6W",
             "name": "MUNRA Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R",["^_RWY08LQAA15DME","S230-"],["_QTR328015","A70+"]],
             "exitPoints": {
@@ -823,7 +880,7 @@
             "icao": "OSAMA6E",
             "name": "OSAMA Six Echo",
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "body": ["_DER08L"],
             "exitPoints": {
@@ -835,7 +892,7 @@
             "icao": "OSAMA6W",
             "name": "OSAMA Six Whiskey",
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "body": ["_DER26R"],
             "exitPoints": {
@@ -853,8 +910,8 @@
             },
             "body": [["AI269", "A70+"],["ASPAL","A60"]],
             "rwy": {
-                "OJAI26L": [],
-                "OJAI26R": []
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw": [["EGLOT*", "AI269", "ASPAL"]]
         },
@@ -866,8 +923,8 @@
             },
             "body": [["AI150", "A150+"],["ALNOR", "A98+"],["ASPAL", "A60"]],
             "rwy": {
-                "OJAI26L": [],
-                "OJAI26R": []
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw": [["ELOXI*", "AI150", "ALNOR", "ASPAL"]]
         },
@@ -879,8 +936,8 @@
             },
             "body":[["AI270", "A70+"],["ASPAL", "A60"]],
             "rwy": {
-                "OJAI26L": [],
-                "OJAI26R": []
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["KULDI*", "AI270", "ASPAL"]]
         },
@@ -892,7 +949,7 @@
             },
             "body":[["AI091", "A70+"], ["LOTES", "A60"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["EGLOT*","AI091", "ASPAL"]]
@@ -905,8 +962,8 @@
             },
             "body": [["AI150", "A150+"],["ALNOR", "A116+|S250-"],["ASPAL","A60"]],
             "rwy": {
-                "OJAI08L": [],
-                "OJAI08R": []
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
+                "OJAI08R":[]
             },
             "draw":[["ELOXI*","AI150","ALNOR","LOTES"]]
         },
@@ -918,7 +975,7 @@
             },
             "body":[["AI087", "A70+"],["LOTES", "A60"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["KULDI*","AI087","LOTES"]]
@@ -931,8 +988,8 @@
             },
             "body": [["LONIN", "A85+|S210-"],["ORDUN", "A60"]],
             "rwy": {
-                "OJAI26L":[],
-                "OJAI26R":[]
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["LOSAR*", "LONIN", "ORDUN"]]
         },
@@ -944,8 +1001,8 @@
             },
             "body": [["LONIN", "A85+|S210-"], ["ORDUN", "A60"]],
             "rwy": {
-                "OJAI26L":[],
-                "OJAI26R":[]
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["LUDAN*", "LONIN", "ORDUN"]]
         },
@@ -957,8 +1014,8 @@
             },
             "body": [["KINEN", "A85+|S210-"], ["ORDUN", "A60"]],
             "rwy": {
-                "OJAI26L":[],
-                "OJAI26R":[]
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["OSAMA*", "KINEN", "ORDUN"]]
         },
@@ -970,8 +1027,8 @@
             },
             "body": [["AI268", "A70+"], ["ASPAL", "A60"]],
             "rwy": {
-                "OJAI26L":[],
-                "OJAI26R":[]
+                "OJAI26L":[["QAA","A46+|S180-"]],
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["QTR01*","AI268","ASPAL"]]
         },
@@ -983,7 +1040,7 @@
             },
             "body": [["LOXER", "A90+"],["KINEN", "A85+|S210-"],["RESOS", "A60"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["LOSAR*", "LOXER", "KINEN", "RESOS"]]
@@ -996,7 +1053,7 @@
             },
             "body": [["LOXER", "A90+"],["KINEN", "A85+|S210-"],["RESOS", "A60"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["LUDAN*", "LOXER", "KINEN", "RESOS"]]
@@ -1009,7 +1066,7 @@
             },
             "body": [["RESOS", "A60+"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["OSAMA*", "RESOS"]]
@@ -1022,7 +1079,7 @@
             },
             "body": [["AI088", "A70+"],["LOTES", "A60"]],
             "rwy": {
-                "OJAI08L":[],
+                "OJAI08L":[["_FI08L","A45+|S180-"]],
                 "OJAI08R":[]
             },
             "draw":[["QTR01*", "AI088", "LOTES"]]
@@ -1035,7 +1092,7 @@
             },
             "body": [["AI610", "A130+"],["AI620", "A120+"],["AI614", "A100+"],["RESOS", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["LOSAR*","AI610","AI620","AI614","RESOS"]]
         },
@@ -1047,7 +1104,7 @@
             },
             "body": [["AI610", "A130+"],["AI620", "A120+"],["AI614", "A100+"],["RESOS", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["LUDAN*","AI610","AI620","AI614","RESOS"]]
         },
@@ -1059,7 +1116,7 @@
             },
             "body": [["AI606", "A200+"],["AI605", "A150+"],"EGLOT",["AI618","A120+"],["AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["KIPAS*","AI606","AI605","EGLOT","AI618","AI617","LOTES"]]
         },
@@ -1071,7 +1128,7 @@
             },
             "body": [["AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["LOSIL*","AI617","LOTES"]]
         },
@@ -1083,7 +1140,7 @@
             },
             "body": [["AI616", "A160+"],["AI617", "A70+"],["LOTES", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["MUNRA*","AI616","AI617","LOTES"]]
         },
@@ -1095,7 +1152,7 @@
             },
             "body": [["AI803", "A60+"],["RESOS", "A60|S210-"]],
             "rwy": {
-                "OJAI08L":[]
+                "OJAI08L":[["_FI08L","A45+|S180-"]]
             },
             "draw":[["OSAMA*","AI803","RESOS"]]
         },
@@ -1107,7 +1164,7 @@
             },
             "body": [["ELOXI", "A150+"],["KINUR", "A150+"],["AI809", "A70+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["GENEX*","ELOXI","KINUR","AI809","AIWAH"]]
         },
@@ -1119,7 +1176,7 @@
             },
             "body": [["AI610","A130+|S210-"],["AI620","A85+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["LOSAR*","AI610","AI620","AIWAH"]]
         },
@@ -1131,7 +1188,7 @@
             },
             "body": [["AI610","A130+|S210-"],["AI620","A85+|S210-"],["AIWAH","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["LUDAN*","AI610","AI620","AIWAH"]]
         },
@@ -1143,7 +1200,7 @@
             },
             "body": [["AI806", "A200+"],["AI805", "A150+"],["AI269", "A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["KIPAS*","AI806","AI805","AI269","ASPAL"]]
         },
@@ -1155,7 +1212,7 @@
             },
             "body": ["AI609",["AI608","A130+"],["AI607","A130+"],["AI269","A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["LOSIL*","AI609","AI608","AI607","AI269","ASPAL"]]
         },
@@ -1167,7 +1224,7 @@
             },
             "body": [["AI608","A130+"],["AI607","A130+"],["AI269","A70+"],["ASPAL","A60|S210-"]],
             "rwy": {
-                "OJAI26R":[]
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw":[["MUNRA*","AI608","AI607","AI269","ASPAL"]]
         },
@@ -1179,7 +1236,7 @@
             },
             "body": [["AI613","A90+"],["ORDUN","A60"]],
             "rwy": {
-                "OJAI26R": []
+                "OJAI26R":[["MIDRU","A50+"],["_FI26R","A45+|S180-"]]
             },
             "draw": [["OSAMA*", "AI613","ORDUN"]]
         }
